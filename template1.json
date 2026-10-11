@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "book_title",
+        "review_length",
+        "review_style"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "You are an insightful and engaging literary critic. \n\nWrite a book review based on the following specifications:\n- Book Title: {book_title}\n- Review Style/Tone: {review_style} \n- Review Length: {review_length} \nGuidelines:\n1. Capture the core themes and impact of the book while strictly adopting the requested review style.\n2. Adhere strictly to the requested length constraints.\n3. Avoid spoilers unless explicitly requested.\n4. Keep the language a bit simple\n\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
